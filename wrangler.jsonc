@@ -32,5 +32,5 @@
     // `local` is the wrangler dev placeholder for "not configured" and passes config
     // validation. Cloudflare Workers Builds replaces it via the DEPLOY_KV_NAMESPACE_ID
     // build variable; CLI deploys replace it with a real id here.
-    "kv_namespaces": [{ "binding": "DATABASE", "id": "local" }],
+    "kv_namespaces": [{ "binding": "DATABASE", "id": "016d135c68e040538830cc6315b76f62" }],
 }
